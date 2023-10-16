@@ -17,7 +17,7 @@ public class Factory {
         System.out.println("[1] - Registrar uma nova ordem de produção");
         System.out.println("[2] - Listar todas as ordens de produção");
         System.out.println("[3] - Atualizar o status de conclusão de uma ordem de produção");
-        System.out.println("[4] - Ver relatórios de produção [Em andamento][Concluída]");
+        System.out.println("[4] - Ver relatórios de produção");
         System.out.println("[5] - Há recursos para produzir o produto especificado");
         System.out.println("[6] - Sair");
 

@@ -136,9 +136,7 @@ public class FactoryInterativeCli {
    * @param sc Scanner para recebimento do dados enviados pelo usuário.
    */
   public void checkIfThereIsEnoughResourcesConsole(Scanner sc) {
-    String nameProduct = this.helperGetNameConsole(sc,
-        "Informe o nome do produto a ser verificada a existência de recursos suficiente para produzí-lo: ");
-
+    String nameProduct = this.helperGetNameConsole(sc, "Informe o nome do produto: ");
     this.fm.checkIfThereIsEnoughResources(nameProduct);
   }
 
@@ -176,6 +174,7 @@ public class FactoryInterativeCli {
     } while (continueMenu);
 
     this.fm.updateStatusIsDone(nameProduct, newStatus);
+    System.out.println("Atualização feita com sucesso!");
   }
 
   /**

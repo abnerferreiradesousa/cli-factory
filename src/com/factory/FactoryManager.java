@@ -56,12 +56,12 @@ public class FactoryManager {
 
     boolean resultAboutResources = new FactoryResource().isThereEnoughResources();
     if (resultAboutResources) {
-      System.out.printf("Há recursos suficientes para a produção de %s unidade(s) %s!",
+      System.out.printf("Há recursos suficientes para a produção de %s unidade(s) %s!\n",
           orderProduct.getQuantity(), orderProduct.getName());
       return;
     }
 
-    System.out.printf("Não há recursos suficientes para a produção de %s unidade(s) %s!",
+    System.out.printf("Não há recursos suficientes para a produção de %s unidade(s) %s!\n",
         orderProduct.getQuantity(), orderProduct.getName());
   }
 
