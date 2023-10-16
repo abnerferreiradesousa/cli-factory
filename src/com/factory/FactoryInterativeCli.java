@@ -174,7 +174,6 @@ public class FactoryInterativeCli {
     } while (continueMenu);
 
     this.fm.updateStatusIsDone(nameProduct, newStatus);
-    System.out.println("Atualização feita com sucesso!");
   }
 
   /**

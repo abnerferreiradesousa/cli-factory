@@ -94,5 +94,6 @@ public class FactoryManager {
 
     orderProduct.setStatus(newStatus);
     this.dbMock.persistData(this.getProductManufactureList());
+    System.out.println("Atualização feita com sucesso!");
   }
 }
