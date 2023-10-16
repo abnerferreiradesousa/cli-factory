@@ -22,7 +22,7 @@ public class FactoryManager {
 
     // Esse código lida com carregamento dos dados do arquivo data.json, caso não exista o arquivo
     // ele o cria com um Array vazio.
-    if (this.dbMock.getJsonFile().exists()) {
+    if (this.dbMock.getJsonFile().exists() && this.dbMock.getJsonFile().length() > 0) {
       this.productManufactureList = this.dbMock.readData();
     } else {
       this.dbMock.persistData(new ArrayList<OrderProductDTO>());

@@ -30,7 +30,6 @@ public class FactoryMockDatabase {
   public void persistData(List<OrderProductDTO> content) {
     try {
       objectMapper.writeValue(jsonFile, content);
-      System.out.println("Persistido no banco de dados mockado.");
     } catch (IOException e) {
       e.printStackTrace();
     }
