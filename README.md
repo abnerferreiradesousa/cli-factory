@@ -1,5 +1,8 @@
 <h1 align="center">🚀 Bem vindo ao projeto CLI Factory! 🚀</h1>
 
+O projeto foi feito em Java usando uma arquivo data.json como banco de dados.
+Todos as instruções de como preencher os campos de entrada estão nos comentários do código e nos exemplos a seguir.
+
 <h3>💥 Rodando o projeto e os recursos da API na sua máquina </h3>
 
 <details>
@@ -13,9 +16,6 @@
 2. Instale as dependências via terminal `mvn install`;
 3. Rode o programa com o seguinte comando `mvn exec:java -Dexec.mainClass="com.factory.Factory"`;
 </details>
-
-
-
 
 <h3>💥 Requisitos</h3>
 
