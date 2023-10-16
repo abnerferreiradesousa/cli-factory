@@ -9,12 +9,17 @@ Todos as instruções de como preencher os campos de entrada estão nos comentá
 
 <summary><strong>Como rodar?</strong></summary>
 
+
+Lembrando: É necessário ter instalado o Java Runtime Environment(JRE), pelo menos, para rodar o projeto. Após isso basta seguir as intruções abaixo.
+
+Link: https://www.oracle.com/java/technologies/downloads/
+
 1. Clone o repositório com o comando:
   - `git clone git@github.com:abnerferreiradesousa/cli-factory.git`;
     - Entre na pasta do repositório:
       - `cd cli-factory`
 2. Instale as dependências via terminal `mvn install`;
-3. Rode o programa com o seguinte comando `mvn exec:java -Dexec.mainClass="com.factory.Factory"`;
+3. Rode o programa com o seguinte comando `mvn exec:java -Dexec.mainClass="com.factory.Factory"`.
 </details>
 
 <h3>💥 Requisitos</h3>
