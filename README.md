@@ -1,5 +1,4 @@
 <h1 align="center">🚀 Bem vindo ao projeto CLI Factory! 🚀</h1>
----
 
 <h3>💥 Rodando o projeto e os recursos da API na sua máquina </h3>
 
@@ -11,9 +10,14 @@
   - `git clone git@github.com:abnerferreiradesousa/cli-factory.git`;
     - Entre na pasta do repositório:
       - `cd cli-factory`
+2. Instale as dependências via terminal `mvn install`;
+3. Rode o programa com o seguinte comando `mvn exec:java -Dexec.mainClass="com.factory.Factory"`;
 </details>
 
-## Requisitos
+
+
+
+<h3>💥 Requisitos</h3>
 
 <details>
 <summary><strong>1. Registrar uma nova ordem de produção, especificando o produto a ser fabricado, a quantidade desejada e a data de entrega.</strong></summary>
